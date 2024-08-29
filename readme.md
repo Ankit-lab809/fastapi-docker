@@ -20,6 +20,12 @@ This project demonstrates how to:
 ### 1. Install Docker and Docker Compose
 
 **On Ubuntu (via WSL2):**
+### 3. Create virtual enviroment and activate it then run further commands
+
+** Install venv for Linux:- sudo apt-get install python3-venv**
+**Create virtual environment:- py -m venv venv**
+**Activate virtual env for Linux:- source venv/bin/activate**
+**Activate virtual env for Windows:- .\venv\Scripts\activate**
 
 ### 2. Use this command to verify the installation by running test container
 **docker run hello-world**
